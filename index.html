@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="">
+    <link rel="icon" type="image/png" href="">
+
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2 class="todo_title">Задачи</h2>
+            <ol class="todo_list">
+                <li class="todo_item">
+                    <div class="todo_item_wrapper">
+                        <button class="todo_btn">Что-то сделать</button>
+                        <button class="todo_edit" area-label="Редактировать"></button>
+                        <button class="todo_del" area-label="Удалить"></button>
+                    </div>
+                </li>
+            </ol>
+    </div>
+
+    <div class="timer">
+        <div class="header">
+            <h1 class="header_title">Помодоро</h1>
+            <img src="./img/tomato-icon.png" alt="Logo">
+        </div>
+
+        <div class="navigation">
+            <button class="navigation_btn navigation_btn_active work" data-use="work">Работаем</button>
+            <button class="navigation_btn break" data-use="break">Перерыв</button>
+            <button class="navigation_btn relax" data-use="relax">Отдых</button>
+        </div>
+
+        <p class="time"><span class="time_minutes">14</span>:<span class="time_seconds">60</span></p>
+        
+        <p class="title">Что-то сделать</p>
+        <div class="control">
+            <button class="control_btn control_btn_start">Старт</button>
+            <button class="control_btn control_btn_stop">Стоп</button>
+        </div>
+    </div>   
+
+        <div class="count">
+            <p class="count_num">3</p>
+            <p class="count_text">Количество помидорок</p>
+        </div>
+    </div>
+  
+    
+ 
+</body>
+</html>
