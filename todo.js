@@ -23,4 +23,16 @@ const addTodo = (title) => {
         pomodoro: 0,
         id: Math.random().toString(16).substring(2, 8),
     };
+
+const todoList = getTodo();
+todoList.push(todo);
+
+localStorage.setItem('pomodoro', JSON.stringify(todoList));
+return todo;
+
+};
+
+const createTodoListItem = (todo) => {
+    if
 }
+ 
