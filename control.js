@@ -22,5 +22,5 @@ const stop = () => {
             state.isActive = false;
             btnStart.textContent = 'Старт';
             state.timeLeft = state[state.status] * 60;
-            showTime(state.timerLeft);
+            showTime(state.timeLeft);
         }

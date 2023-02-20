@@ -33,6 +33,8 @@ return todo;
 };
 
 const createTodoListItem = (todo) => {
-    if
+    if (todo.id !=='default') {
+        const todoItem = document.createElement('li');
+    }
 }
  
